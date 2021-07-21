@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">APP1</string>
+    <string name="age">Get age</string>
+    <string name="year">year</string>
+</resources>

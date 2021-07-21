@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">APP3</string>
+    <string name="Login">Login</string>
+    <string name="Name">Name</string>
+    <string name="PSW">Password</string>
+    <!--
+    <string-array name="jobs">
+        <item>developer</item>
+        <item>system admin</item>
+        <item>formateur</item>
+    </string-array>
+     -->
+</resources>

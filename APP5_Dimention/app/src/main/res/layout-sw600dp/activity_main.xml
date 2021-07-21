@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/testimage" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="20dp"
+                android:text="The new Job"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:textSize="10pt"
+                android:text="In the old days, ants and cicadas were friends. They were very different. The ants were hardworking, but the cicadas were lazy. their anthill. They wanted to have enough food for the whole winter.  While the ants worked hard, the cicadas didn't do anything. They sang and danced all day. When they were hungry, they could fly to the farm and get something to eat. One day the cicadas were singing and dancing. They saw a long line of ants bringing food to their anthill. The cicadas said, 'Stop, my silly friends. It's a very nice day. Come and dance with us.' The ants said, 'Don't you know about winter? If you don't work now, you'll have trouble later.But the cicadas said, 'We have strong wings. We can fly anywhere we want. Stupid ants!' And they continued to sing and dance.  " />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

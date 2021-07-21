@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق 3</string>
+    <string name="Login">دخول</string>
+    <string name="Name">الاسم</string>
+    <string name="PSW">كلمة السر</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/googleplus" android:icon="@drawable/googlep" android:title="GooglePlus" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/whatsap" android:icon="@drawable/whatsapp" android:title="Whatsap" app:showAsAction="ifRoom"/>
+
+</menu>
